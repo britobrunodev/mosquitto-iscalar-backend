@@ -47,13 +47,13 @@ cd mosquitto-iscalar-backend
 ```bash
 docker build -t mosquitto-iscalar:1.0.0 .
 ```
-## Environment variables
+### Environment variables
 
 This project uses environment variables to configure settings such as authentication and other runtime options.
 
 1. Create .env file from .env.example:
 
-## Portainer:
+#### Portainer:
 
 ```bash
 version: '3.8'
@@ -74,7 +74,7 @@ volumes:
   mosquitto-log:
 ```
 
-## Docker command:
+#### Docker command:
 
 ```bash
 docker run -d \
