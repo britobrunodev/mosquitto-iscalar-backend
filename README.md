@@ -47,7 +47,7 @@ cd mosquitto-iscalar-backend
 ```bash
 docker build -t mosquitto-iscalar:1.0.0 .
 ```
-### Environment variables
+#### Environment variables:
 
 This project uses environment variables to configure settings such as authentication and other runtime options.
 
